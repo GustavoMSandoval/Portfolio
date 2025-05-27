@@ -48,3 +48,17 @@ button {
   }
 
 }
+
+span {
+  color:var(--roxo);
+}
+
+section {
+
+  padding: 15rem 5rem;
+
+}
+
+nav {
+  z-index: 999;
+}

@@ -11,7 +11,7 @@ export const Navbar = () => {
 
   return (
     <header>
-        <nav className="z-[999] md:hidden">
+        <nav className="md:hidden">
             <div className="flex justify-end"><button className="ml-auto text-5xl" onClick={toggleMenu}>{isOpen ? <FiX /> : <FiAlignJustify />}</button></div>
             <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
                 <ul>

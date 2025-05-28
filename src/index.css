@@ -5,6 +5,7 @@
   --roxo: #9395d3;
   --escuro: #000807;
   --claro: #fcfafa;
+  --cinza: #C6C4CB;
 }
 
 * {
@@ -39,6 +40,10 @@ a {
 
 }
 
+p {
+  color: var(--cinza);
+}
+
 button {
 
   padding: 2rem;
@@ -61,4 +66,8 @@ section {
 
 nav {
   z-index: 999;
+}
+
+h2 {
+  text-transform: uppercase;
 }

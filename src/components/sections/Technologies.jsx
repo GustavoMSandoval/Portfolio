@@ -3,7 +3,7 @@ export const TechnologiesSection = () => {
         <section id="technologies">
             <div className="flex flex-col gap-y-64">
                 <div className="flex justify-center">
-                    <h2 className="text-5xl"><span>Tecnologias</span> que utilizo em meus projetos</h2>
+                    <h2><span>Tecnologias</span> que utilizo em meus projetos</h2>
                 </div>
                 <div className="flex justify-around gap-4">
                     <div className="flex flex-col items-center gap-7 w-64 text-center">

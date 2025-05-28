@@ -1,5 +1,6 @@
 import { Navbar } from './components/Navbar';
 import { AboutSection } from './components/sections/About';
+import { TechnologiesSection } from './components/sections/Technologies';
 
 function App() {
 
@@ -7,6 +8,7 @@ function App() {
     <>
       <Navbar></Navbar>
       <AboutSection/>
+      <TechnologiesSection/>
     </>
   )
 }

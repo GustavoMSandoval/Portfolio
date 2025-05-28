@@ -1,4 +1,5 @@
 import { Navbar } from './components/Navbar';
+import { Footer } from './components/Footer';
 import { AboutSection } from './components/sections/About';
 import { TechnologiesSection } from './components/sections/Technologies';
 
@@ -6,9 +7,10 @@ function App() {
 
   return (
     <>
-      <Navbar></Navbar>
+      <Navbar/>
       <AboutSection/>
       <TechnologiesSection/>
+      <Footer/>
     </>
   )
 }

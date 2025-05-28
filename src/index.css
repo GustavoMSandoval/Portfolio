@@ -5,7 +5,8 @@
   --roxo: #9395d3;
   --escuro: #000807;
   --claro: #fcfafa;
-  --cinza: #C6C4CB;
+  --cinza-claro: #C6C4CB;
+  --cinza-escuro: #1F2020;
 }
 
 * {
@@ -41,7 +42,7 @@ a {
 }
 
 p {
-  color: var(--cinza);
+  color: var(--cinza-claro);
 }
 
 button {
@@ -68,6 +69,36 @@ nav {
   z-index: 999;
 }
 
+h1 {
+  text-transform: uppercase;
+  font-size: 6rem;
+  line-height: 1;
+}
+
 h2 {
   text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+
+footer {
+  background-color: var(--cinza-escuro);
+  padding: 5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#contact-links a {
+  border-radius: 30px;
+  width: fit-content;
+  padding: 1rem 3rem;
+  border: 1px solid ;
+  transition: ease-in-out .5s;
+
+  &:hover {
+    background-color: var(--claro);
+  }
+
 }

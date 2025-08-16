@@ -3,7 +3,7 @@ import { FaWhatsapp } from "react-icons/fa6";
 
 export const Footer = () => {
     return (
-        <footer>
+        <footer id="contacts">
             <div>
                 <p>Tem um projeto em mente?</p>
                 <h1>Entre em <span>contato</span></h1>

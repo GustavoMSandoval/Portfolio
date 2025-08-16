@@ -16,8 +16,8 @@ export const Navbar = () => {
             <div className={`overflow-hidden transition-all duration-500 ease-in-out ${isOpen ? "max-h-96 opacity-100" : "max-h-0 opacity-0"}`}>
                 <ul>
                     <li><a href="#about">Sobre</a></li>
-                    <li><a href="#technologies">Tecnologias</a></li>
                     <li><a href="#projects">Projetos</a></li>
+                    <li><a href="#technologies">Tecnologias</a></li>
                     <li><a href="#contacts">Contatos</a></li>
                 </ul>
             </div>
@@ -25,8 +25,8 @@ export const Navbar = () => {
         <nav>
             <ul className="hidden md:flex justify-center">
                 <li><a href="#about">Sobre</a></li>
-                <li><a href="#technologies">Tecnologias</a></li>
                 <li><a href="#projects">Projetos</a></li>
+                <li><a href="#technologies">Tecnologias</a></li>
                 <li><a href="#contacts">Contatos</a></li>
             </ul>
         </nav>

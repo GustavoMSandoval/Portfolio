@@ -6,7 +6,7 @@ export const AboutSection = () => {
                         <h2 className="text-5xl">OI ME CHAMO GUSTAVO <br /> SOU UM <span>DESENVOLVEDOR</span> <br /> <span>WEB FULLSTACK</span></h2>
                     </div>
                     <div className="w-[35vw]">
-                        <img className="rounded-full" src="src/assets/foto_bonita.jpg" alt="" />
+                        <img className="rounded-full" src="/foto_bonita.jpg" alt="" />
                     </div>
                 </div>
         </section>

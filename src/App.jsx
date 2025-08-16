@@ -2,6 +2,7 @@ import { Navbar } from './components/Navbar';
 import { Footer } from './components/Footer';
 import { AboutSection } from './components/sections/About';
 import { TechnologiesSection } from './components/sections/Technologies';
+import ProjectsSection from './components/sections/Projects';
 
 function App() {
 
@@ -9,6 +10,7 @@ function App() {
     <>
       <Navbar/>
       <AboutSection/>
+      <ProjectsSection/>
       <TechnologiesSection/>
       <Footer/>
     </>

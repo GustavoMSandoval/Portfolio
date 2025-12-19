@@ -47,20 +47,22 @@ export const TechnologiesSection = () => {
     ]
 
     return (
-        <section id="technologies">   
-                <div className="flex flex-col gap-y-64">
-                    <div className="flex justify-center">
-                        <h2><span>Tecnologias</span> que utilizo em meus projetos</h2>
+        <section id="technologies" className="!my-24">  
+                <div className="section-container">    
+                    <div className="flex flex-col gap-y-64">
+                        <div className="flex justify-center">
+                            <h2><span>Tecnologias</span> que utilizo em meus projetos</h2>
+                        </div>
+                            <Slider {...settings} >
+                                {technologies.map((technlogy) => (
+                                    <div key={technlogy.id} className="flex flex-col items-center text-center">
+                                        <img className="technology-img" src={technlogy.img} alt={`logo ${technlogy.alt}`} width={256}/>
+                                        <p dangerouslySetInnerHTML={{ __html: technlogy.text }} />
+                                    </div>
+                                ))}
+                            </Slider>
                     </div>
-                        <Slider {...settings} >
-                            {technologies.map((technlogy) => (
-                                <div key={technlogy.id} className="flex flex-col items-center text-center">
-                                    <img className="technology-img" src={technlogy.img} alt={`logo ${technlogy.alt}`} width={256}/>
-                                    <p dangerouslySetInnerHTML={{ __html: technlogy.text }} />
-                                </div>
-                            ))}
-                        </Slider>
-                </div>
+                </div> 
         </section>
     )
 }

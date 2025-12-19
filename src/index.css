@@ -27,8 +27,10 @@ h1, h2 {
   line-height: 1;
 }
 
-@media (max-width: 1400px) {
-  
+@media (max-width: 800px) {
+  h1, h2 {
+    font-size: 2rem;
+  }
 }
 
 ul {
@@ -109,12 +111,6 @@ span {
   .section-container {
     width: 90%;
   }
-}
-
-section {
-
-  padding: 15rem 5rem;
-
 }
 
 nav {

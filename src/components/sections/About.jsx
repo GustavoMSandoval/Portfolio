@@ -1,6 +1,6 @@
 export const AboutSection = () => {
     return (
-        <section id="about">
+        <section id="about" className="!my-24">
                 <div className="section-container flex flex-col-reverse lg:flex-row justify-center items-center gap-8">
                     <div className="flex flex-col gap-7">
                         <div>

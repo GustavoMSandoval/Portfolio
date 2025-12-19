@@ -34,9 +34,9 @@ export default function ProjectsSection() {
   return (
      <section id="projects">
         <div className="section-container">
-            <div className="flex flex-col gap-y-64">
+            <div className="flex flex-col gap-y-24">
                 <div className="flex justify-center">
-                    <h2>os <span>projetos</span> que realizei ao longo de minha jornada</h2>
+                    <h2>meus <span>projetos</span> e seus impactos</h2>
                 </div>
                 <div className="flex justify-center">
                     <div className="w-full max-w-2xl mx-auto">

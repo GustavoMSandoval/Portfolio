@@ -21,6 +21,16 @@ body {
   font-family: 'Poppins', sans-serif;
 }
 
+h1, h2 {
+  text-transform: uppercase;
+  font-size: 3rem;
+  line-height: 1;
+}
+
+@media (max-width: 1400px) {
+  
+}
+
 ul {
   list-style: none;
 }
@@ -45,6 +55,10 @@ p {
   color: var(--cinza-claro);
 }
 
+.text-primary {
+  color: var(--roxo);
+}
+
 button {
 
   padding: 2rem;
@@ -55,8 +69,46 @@ button {
 
 }
 
+.btn-primary {
+  border-radius: 30px;
+  width: fit-content;
+  padding: 1rem 3rem;
+  border: 1px solid;
+  transition: ease-in-out .5s;
+  text-transform: uppercase;
+
+  &:hover {
+    color: var(--claro);
+    border-color: var(--roxo);
+    background-color: var(--roxo);
+  }
+}
+
+.btn-secondary {
+  border-radius: 30px;
+  width: fit-content;
+  padding: 1rem 3rem;
+  border: 1px solid;
+  transition: ease-in-out .5s;
+
+  &:hover {
+    background-color: var(--claro);
+  }
+}
+
 span {
   color:var(--roxo);
+}
+
+.section-container {
+  margin: auto;
+  width: 73.5%;
+}
+
+@media (max-width: 1490px) {
+  .section-container {
+    width: 90%;
+  }
 }
 
 section {
@@ -68,19 +120,6 @@ section {
 nav {
   z-index: 999;
 }
-
-h1 {
-  text-transform: uppercase;
-  font-size: 6rem;
-  line-height: 1;
-}
-
-h2 {
-  text-transform: uppercase;
-  font-size: 3rem;
-  line-height: 1;
-}
-
 
 footer {
   background-color: var(--cinza-escuro);

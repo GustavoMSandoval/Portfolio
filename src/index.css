@@ -117,6 +117,19 @@ nav {
   z-index: 999;
 }
 
+.iframe-wrapper {
+  width: 100%;
+  height: 0;
+  padding-bottom: 56.25%;
+  position: relative;
+}
+
+.iframe-wrapper iframe {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+}
+
 footer {
   background-color: var(--cinza-escuro);
   padding: 5rem 8rem;

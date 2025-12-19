@@ -81,6 +81,27 @@ h2 {
   line-height: 1;
 }
 
+
+footer {
+  background-color: var(--cinza-escuro);
+  padding: 5rem 8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
+}
+
+#contact-links a {
+  border-radius: 30px;
+  width: fit-content;
+  padding: 1rem 3rem;
+  border: 1px solid ;
+  transition: ease-in-out .5s;
+
+  &:hover {
+    background-color: var(--claro);
+  }
+}
+
 .technology-img {/* Alinhamento da imagem no centro ps: Lembrar sempre*/
   display: block;
   margin-left: auto;

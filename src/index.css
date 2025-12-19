@@ -71,3 +71,10 @@ nav {
 h2 {
   text-transform: uppercase;
 }
+
+.technology-img {/* Alinhamento da imagem no centro ps: Lembrar sempre*/
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-bottom: 1rem;
+}

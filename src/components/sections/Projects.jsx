@@ -25,7 +25,7 @@ export default function ProjectsSection() {
         {
             id: "3",
             link: "https://www.youtube.com/embed/YG12SAzl4m4?si=EHA_cp_VzqDImicO",
-            text: "Trabalho feito utilizando NextJS para uma empresa de comunicação visual o resultado <span>Google Analytics implementado</span> e <span> melhora de 87% no SEO</span>"
+            text: "Trabalho que feito utilizando NextJS para uma empresa de comunicação visual o resultado <span>Google Analytics implementado</span> e <span> melhora de 87% no SEO</span>"
         },
         
       

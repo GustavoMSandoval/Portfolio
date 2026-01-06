@@ -30,7 +30,7 @@ h1, h2 {
 
 @media (max-width: 800px) {
   h1, h2 {
-    font-size: 2rem;
+    font-size: 1.8rem;
   }
 }
 
@@ -105,8 +105,20 @@ button {
   }
 }
 
-span {
+.primary-span {
   color:var(--roxo);
+}
+
+.typing {
+  animation: 
+    typing 4s steps(40, end);
+  overflow: hidden;
+  white-space: nowrap;
+}
+
+@keyframes typing {
+  0% { width: 0 }
+  100% { width: 100% }
 }
 
 .section-container {

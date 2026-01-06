@@ -36,10 +36,10 @@ export default function ProjectsSection() {
         <div className="section-container">
             <div className="flex flex-col gap-y-24">
                 <div className="flex justify-center">
-                    <h2>meus <span>projetos</span> e seus impactos</h2>
+                    <h2>meus <span className="primary-span">projetos</span> e seus impactos</h2>
                 </div>
                 <div className="flex justify-center">
-                    <div className="w-full max-w-2xl mx-auto">
+                    <div className="w-full max-w-2xl mx-auto projects">
                         <Slider {...settings}>
                             {projects.map((project) => (
                             <div className="flex flex-col items-center text-center">

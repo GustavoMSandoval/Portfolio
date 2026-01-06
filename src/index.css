@@ -150,6 +150,10 @@ nav {
   height: 100%;
 }
 
+.projects span {
+  color: var(--roxo);
+}
+
 footer {
   background-color: var(--cinza-escuro);
   display: flex;

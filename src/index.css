@@ -154,11 +154,8 @@ nav {
   color: var(--roxo);
 }
 
-footer {
-  background-color: var(--cinza-escuro);
-  display: flex;
-  flex-direction: column;
-  gap: 4rem;
+#technologies span {
+  color: var(--roxo);
 }
 
 .technology-img {/* Alinhamento da imagem no centro ps: Lembrar sempre*/
@@ -166,4 +163,11 @@ footer {
   margin-left: auto;
   margin-right: auto;
   margin-bottom: 1rem;
+}
+
+footer {
+  background-color: var(--cinza-escuro);
+  display: flex;
+  flex-direction: column;
+  gap: 4rem;
 }

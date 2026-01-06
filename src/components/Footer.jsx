@@ -4,7 +4,7 @@ export const Footer = () => {
             <div className="section-container">
                 <div className="!mb-4">
                     <p>Tem um projeto em mente?</p>
-                    <h1>Entre em <span>contato</span></h1>
+                    <h1>Entre em <span className="primary-span">contato</span></h1>
                 </div>
                 <div className="!mb-4">
                     <ul id="contact-links" className="flex flex-col sm:flex-row">

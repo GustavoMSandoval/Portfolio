@@ -41,14 +41,14 @@ li {
   padding: 2rem;
 }
 
-nav li > a {
+.nav-link {
 
   transition: ease-in-out .5s;
   position: relative;
 
-  
 }
-nav li > a::after {
+
+.nav-link::after {
   content: '';
   position: absolute;
   height: 1px;
@@ -58,7 +58,8 @@ nav li > a::after {
   background: var(--roxo);
   transition: width .5s;
 }
-nav li > a:hover:after {
+
+.nav-link:hover:after {
     width: 100%;
 }
 

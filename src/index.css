@@ -41,6 +41,10 @@ li {
   padding: 2rem;
 }
 
+.nav-link-item {
+  padding: 0.9rem 1.2rem;
+}
+
 .nav-link {
 
   transition: ease-in-out .5s;
@@ -63,6 +67,11 @@ li {
     width: 100%;
 }
 
+.nav-content {
+  margin-inline: auto;
+  width: fit-content;
+  border-radius: 10px;
+}
 
 a {
   text-decoration: none;
@@ -81,6 +90,10 @@ p {
 
 .text-primary {
   color: var(--roxo);
+}
+
+.text-secondary {
+  color: var(--cinza-claro);
 }
 
 button {

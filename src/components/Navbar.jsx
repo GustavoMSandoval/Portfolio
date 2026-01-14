@@ -25,7 +25,7 @@ export const Navbar = () => {
           <nav className="flex justify-center">
               <div className="nav-content bg-background/95 backdrop-blur-md shadow-[0_4px_12px_rgba(0,0,0,0.1)]">
                 <ul className="hidden md:flex justify-center items-center">
-                    <li className="nav-link-item flex gap-1">
+                    <li className="nav-link-item flex gap-3">
                         <img className="rounded-full w-12" src="/foto_bonita.jpg" alt="Minha foto" />
                         <div className="flex flex-col">
                             <span>Gustavo M Sandoval</span>

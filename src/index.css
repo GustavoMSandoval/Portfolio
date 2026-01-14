@@ -68,9 +68,10 @@ li {
 }
 
 .nav-content {
+  padding: 0 2.5rem;
   margin-inline: auto;
   width: fit-content;
-  border-radius: 10px;
+  border-radius: 50px;
 }
 
 a {
